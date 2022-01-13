@@ -19,3 +19,4 @@ axios.get('https://mudremcloudstore.aremzy.repl.co/')
 }
 console.log("started")
 setInterval(automate , 600000)
+require("http").createServer().listen(process.env.PORT)
